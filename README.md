@@ -10,7 +10,7 @@ Get the latest version from **[Releases](https://github.com/BEAMevents/BEAMwire/
 - **BEAMwire-Setup-x.y.z.exe** (Windows) installs BEAMwire and **updates itself automatically**.
 - **BEAMwire-x.y.z-mac-arm64.dmg** (Mac, Apple Silicon). It tells you when a newer version is out; download the new .dmg to update.
 
-The Windows installer isn't code-signed yet, so SmartScreen may warn on first launch: click **More info → Run anyway**. The Mac app isn't notarized: the first time, right-click BEAMwire → **Open** → **Open**.
+The Mac app is signed and notarized by Apple (from version 1.0.14), so it opens with a normal double-click. The Windows installer isn't code-signed yet, so SmartScreen may warn on first launch: click **More info → Run anyway**.
 
 ## Updates
 The installed Windows version checks for updates in the background and shows **Update x.y.z ready** in its header. Click it, then **Install & restart**.
